@@ -18,7 +18,7 @@ router.get("/best-dressed/comments", (req, res) => {
   res.json("Number 4");
 });
 
-router.get("/people/:name/lookup", (req, res) => {
+router.get("/:name/lookup", (req, res) => {
   res.json("Number 5");
 });
 
